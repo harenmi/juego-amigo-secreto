@@ -33,3 +33,22 @@ function actualizarListaDeAmigos() {
     }
     return;
 }
+
+function sortearAmigo() {
+    // Validar que haya amigos disponibles.
+    if (amigos.length != 0) {
+        // Generar un índice aleatorio.
+        let i = Math.floor(Math.random() * amigos.length);
+        console.log(i);
+        // Obtener el nombre sorteado.
+        let amigoSecreto = amigos[i];
+        console.log(amigoSecreto);
+        // Mostrar el resultado.
+        document.getElementById('resultado').innerHTML = `El amigo secreto seleccionado es: ${amigoSecreto}`;
+        // limpiar lista de amigos.
+        document.getElementById('listaAmigos').innerHTML = '';
+    } else {
+        // Array vacio.
+        alert('La lista de amigos esta vacía')
+    }
+}
