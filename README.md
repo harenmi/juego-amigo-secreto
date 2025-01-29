@@ -9,6 +9,9 @@ Amigo secreto es una aplicación que permite a los usuarios ingresar nombres de 
 El usuario deberá agregar nombres mediante un campo de texto y un botón **"Adicionar"**. Los nombres ingresados se mostrarán en una lista visible en la página, y al finalizar, 
 un botón **"Sortear Amigo"** seleccionará uno de los nombres de forma aleatoria, mostrando el resultado en pantalla.
 
+
+![img](https://github.com/user-attachments/assets/16aeb51e-d65b-4c2d-addf-43aa99c07723)
+
 ## :hammer:Funcionalidades del proyecto
 
 - `Agregar nombres`: Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en **"Adicionar"**.
